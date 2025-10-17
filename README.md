@@ -11,10 +11,10 @@ pip install -r requirements.txt
 `Uso`
 ```txt
 # Buscar empresa
-python app.py search --q "Banco do Brasil" --exact --ini 2018 --fim 2025
+python app.py search --q "Banco do Brasil S.A."
 
 # Analisar e exportar Excel
-python app.py analyze --empresa "Banco do Brasil" --exact --ini 2018 --fim 2025 --out resultado.xlsx
+python app.py analyze --empresa "BANCO DO BRASIL SA" --ini 2015 --fim 2024 --out resultado.xlsx
 # ou por CNPJ
 python app.py analyze --cnpj 00000000000191 --ini 2018 --fim 2025 --out resultado.xlsx
 
